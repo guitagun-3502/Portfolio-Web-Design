@@ -7,6 +7,8 @@
 	<meta name="author" content="">
       <title>Lagunchiks One Page Personal Portfolio</title>
       <link href='css/style.css' rel='stylesheet'>
+      <link href='css/mobile.css' rel='stylesheet'>
+      <link href='css/animation.css' rel='stylesheet'>
 </head>
 <body>
       <div class='wrapper start'>
@@ -28,15 +30,14 @@
             <a name="services"></a>
             <div class='header'>
                   <div class='header-content'>
-                        <span>LAGUNCHIK</span>
+                        <span><a href='#top'>LAGUNCHIK</a></span>
                         <nav>
-                              <a href='#top'>HOME</a>
-                              <a href='#services'>SERVICES</a>
-                              <a href='#works'>WORKS</a>
-                              <a>SKILLS</a>
-                              <a>TESTIMONIALS</a>
-                              <a>CONTACT</a>
+                              <a href='#top' class='a-menu'>HOME</a>
+                              <a href='#services' class='a-menu'>SERVICES</a>
+                              <a href='#works' class='a-menu'>WORKS</a>
+                              <a href='#contact' class='a-menu'>CONTACT</a>
                         </nav>
+                        <span class="hamb" status='false'>☰</span>
                   </div>
             </div>
             <div class='services'>
@@ -58,12 +59,12 @@
                         </div>
                         <div class='services-block'>
                               <img src='img/icon-3.png'>
-                              <span>BRANDING</span>
+                              <span>HIGHER EDUCATION</span>
                               <p>Good things come to those who wait, but only the things left by those who hustle</p>
                         </div>
                         <div class='services-block'>
                               <img src='img/icon-4.png'>
-                              <span>CONSULTATION</span>
+                              <span>HMTL/CSS/JS/JQUERY/REACT</span>
                               <p>Good things come to those who wait, but only the things left by those who hustle</p>
                         </div>
                   </div>
@@ -75,7 +76,72 @@
                         <div class='line'></div>
                         <p>No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people's eyes, to reveal the marvels around.</p>
                   </div>
+                  <div class='my-works-blocks'>
+                        <div class='my-works-block' id='my-works-block-info-1'>
+                              <div class='my-works-block-info'>
+                                    <h2>CRAZY <span>SHARK</span></h2>
+                                    <p>LILY LIKES TO PLAY WITH CRAYONS AND PENCILS</p>
+                              </div>
+                        </div>
+                        <div class='my-works-block' id='my-works-block-info-2'>
+                              <div class='my-works-block-info'>
+                                    <h2>FUNNY <span>TORTOISE</span></h2>
+                                    <p>LILY LIKES TO PLAY WITH CRAYONS AND PENCILS</p>
+                              </div>
+                        </div>
+                        <div class='my-works-block' id='my-works-block-info-3'>
+                              <div class='my-works-block-info'>
+                                    <h2>THE <span>HAT</span></h2>
+                                    <p>LILY LIKES TO PLAY WITH CRAYONS AND PENCILS</p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class='my-works-blocks'>
+                        <div class='my-works-block' id='my-works-block-info-4'>
+                              <div class='my-works-block-info'>
+                                    <h2>BANG <span>BANG</span></h2>
+                                    <p>LILY LIKES TO PLAY WITH CRAYONS AND PENCILS</p>
+                              </div>
+                        </div>
+                        <div class='my-works-block' id='my-works-block-info-5'>
+                              <div class='my-works-block-info'>
+                                    <h2>CRYPTOINE <span>DUDE</span></h2>
+                                    <p>LILY LIKES TO PLAY WITH CRAYONS AND PENCILS</p>
+                              </div>
+                        </div>
+                        <div class='my-works-block' id='my-works-block-info-6'>
+                              <div class='my-works-block-info'>
+                                    <h2>DON'T <span>POKE</span></h2>
+                                    <p>LILY LIKES TO PLAY WITH CRAYONS AND PENCILS</p>
+                              </div>
+                        </div>
+                  </div>
             </div>
+            <a name="contact"></a>
+            <div class='contact'>
+                  <div class='contact-info'>
+                        <span>DROP ME A LINE</span>
+                        <div class='line'></div>
+                        <p>No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people's eyes, to reveal the marvels around.</p>
+                  </div>
+                  <div class='contact-content'>
+                        <input placeholder='Name'>
+                        <input placeholder='E-mail'>
+                        <textarea placeholder="Message"></textarea>
+                        <div class='contact-button'>SEND MESSAGE</div>
+                  </div>
+            </div>
+            <div class='footer'>
+                  <div class='footer-icons'>
+                        <a href='https://www.instagram.com/guitagun/' target="_blank"><img src='./img/instagram.png'></a>
+                        <a href='https://github.com/guitagun-3502' target="_blank"><img src='./img/github.png'></a>
+                        <a href='https://soligorsk.jobs.tut.by/resume/1cd3ec17ff072bbdc30039ed1f4f646d6a7338' target="_blank"><img src='./img/email.png'></a>
+                        <a href='https://vk.com/guitagun' target="_blank"><img src='./img/VK.png'></a>
+                  </div>
+                  <p>Made with <img src="./img/footer-love.gif"> in Minsk</p>
+                  <p>&copy; 2019 Kirill Lagunchik, Minsk, Belarus</p>
+            </div>
+            <a href='#top'><div class='to-home'><img src='./img/arrow-up.png'></div></a>
       </div>
       <script src='node_modules/jquery/dist/jquery.min.js'></script>
       <script src='js/index.js'></script>

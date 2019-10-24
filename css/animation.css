@@ -1,0 +1,438 @@
+.start{
+      -webkit-animation-name: start;
+              animation-name: start;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+}
+
+@-webkit-keyframes start{
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+}
+
+@keyframes start{
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+}
+
+.link-img{
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+}
+
+.down{
+      -webkit-animation-name: down;
+              animation-name: down;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+}
+
+@-webkit-keyframes down{
+      0% {-webkit-transform: translateY(0);transform: translateY(0); opacity: 0;}
+      50% {-webkit-transform: translateY(15px);transform: translateY(15px); opacity: 0.7;}
+      100% {-webkit-transform: translateY(30px);transform: translateY(30px); opacity: 0;}
+}
+
+@keyframes down{
+      0% {-webkit-transform: translateY(0);transform: translateY(0); opacity: 0;}
+      50% {-webkit-transform: translateY(15px);transform: translateY(15px); opacity: 0.7;}
+      100% {-webkit-transform: translateY(30px);transform: translateY(30px); opacity: 0;}
+}
+
+.services-info, .my-works-info{
+      -webkit-animation-duration: 0.8s;
+              animation-duration: 0.8s;
+      -webkit-animation-iteration-count: inherit;
+              animation-iteration-count: inherit;
+      -webkit-animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+}
+
+.emergence{
+      -webkit-animation-name: emergence;
+              animation-name: emergence;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+}
+
+@-webkit-keyframes emergence{
+      0% {margin: 80px 0 0 0; opacity: 0;}
+      100%{margin: 0 0 80px 0; opacity: 1;}
+}
+
+@keyframes emergence{
+      0% {margin: 80px 0 0 0; opacity: 0;}
+      100%{margin: 0 0 80px 0; opacity: 1;}
+}
+
+.services-block{
+      -webkit-animation-duration: 0.8s;
+              animation-duration: 0.8s;
+      -webkit-animation-iteration-count: inherit;
+              animation-iteration-count: inherit;
+      -webkit-animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+}
+
+.apperance{
+      -webkit-animation-name: apperance;
+              animation-name: apperance;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+}
+
+@-webkit-keyframes apperance{
+      0% {margin: 0 100px; opacity: 0;}
+      100% {margin: 0 15px; opacity: 1;}
+}
+
+@keyframes apperance{
+      0% {margin: 0 100px; opacity: 0;}
+      100% {margin: 0 15px; opacity: 1;}
+}
+
+.my-works-block{
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
+      -webkit-animation-iteration-count: inherit;
+              animation-iteration-count: inherit;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.sudden-appearance{
+      -webkit-animation-name: sudden-appearance;
+              animation-name: sudden-appearance;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+}
+
+.my-works-block:hover .my-works-block-info{
+      -webkit-animation: border-yes 0.3s linear;
+              animation: border-yes 0.3s linear;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.my-works-block:not(:hover) .my-works-block-info{
+      -webkit-animation: border-no 0.3s linear;
+              animation: border-no 0.3s linear;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.my-works-block:hover .my-works-block-info>h2{
+      -webkit-animation: my-works-header 0.3s linear;
+              animation: my-works-header 0.3s linear;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.my-works-block:hover .my-works-block-info>p{
+      -webkit-animation: my-works-p 0.3s linear;
+              animation: my-works-p 0.3s linear;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.my-works-block:not(:hover) .my-works-block-info>h2{
+      -webkit-animation: my-works-header-back 0.3s linear;
+              animation: my-works-header-back 0.3s linear;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.my-works-block:not(:hover) .my-works-block-info>p{
+      -webkit-animation: my-works-p-back 0.3s linear;
+              animation: my-works-p-back 0.3s linear;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+@-webkit-keyframes border-yes{
+      0% {border:2px solid rgb(255, 255, 255, 0);}
+      100% {border:2px solid rgb(255, 255, 255, 1);}
+}
+
+@keyframes border-yes{
+      0% {border:2px solid rgb(255, 255, 255, 0);}
+      100% {border:2px solid rgb(255, 255, 255, 1);}
+}
+
+@-webkit-keyframes border-no{
+      0% {border:2px solid rgb(255, 255, 255, 1);}
+      100% {border:2px solid rgb(255, 255, 255, 0);}
+}
+
+@keyframes border-no{
+      0% {border:2px solid rgb(255, 255, 255, 1);}
+      100% {border:2px solid rgb(255, 255, 255, 0);}
+}
+
+@-webkit-keyframes my-works-header{
+      0% {padding: 0 0 30px 0;}
+      100% {padding: 20px 0 10px 0;}
+}
+
+@keyframes my-works-header{
+      0% {padding: 0 0 30px 0;}
+      100% {padding: 20px 0 10px 0;}
+}
+
+@-webkit-keyframes my-works-p{
+      0% {padding: 40px 30px 0 30px; opacity: 0;}
+      100% {padding: 20px 30px; opacity: 1;}
+}
+
+@keyframes my-works-p{
+      0% {padding: 40px 30px 0 30px; opacity: 0;}
+      100% {padding: 20px 30px; opacity: 1;}
+}
+
+@-webkit-keyframes my-works-header-back{
+      0% {padding: 20px 0 10px 0;}
+      100% {padding: 0 0 30px 0;}
+}
+
+@keyframes my-works-header-back{
+      0% {padding: 20px 0 10px 0;}
+      100% {padding: 0 0 30px 0;}
+}
+
+@-webkit-keyframes my-works-p-back{
+      0% {padding: 20px 30px; opacity: 1;}
+      100% {padding: 40px 30px 0 30px; opacity: 0;}
+}
+
+@keyframes my-works-p-back{
+      0% {padding: 20px 30px; opacity: 1;}
+      100% {padding: 40px 30px 0 30px; opacity: 0;}
+}
+
+@-webkit-keyframes sudden-appearance{
+      0%{margin: 0 4%; opacity: 0.2;}
+      100% {margin: 0 2%; opacity: 1;}
+}
+
+@keyframes sudden-appearance{
+      0%{margin: 0 4%; opacity: 0.2;}
+      100% {margin: 0 2%; opacity: 1;}
+}
+
+.contact-info{
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
+      -webkit-animation-iteration-count: inherit;
+              animation-iteration-count: inherit;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.contact-button:hover{
+      -webkit-animation-name:button-color;
+              animation-name:button-color;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.contact-button:not(:hover){
+      -webkit-animation-name: button-no-color;
+              animation-name: button-no-color;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.contact-content>input, .contact-content>textarea, .contact-button{
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
+      -webkit-animation-iteration-count: inherit;
+              animation-iteration-count: inherit;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.input-animation{
+      -webkit-animation-name: input-animation;
+              animation-name: input-animation;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+@-webkit-keyframes button-color{
+      0% {background: rgb(85, 85, 85);}
+      100% {background: rgb(36, 36, 36);}
+}
+
+@keyframes button-color{
+      0% {background: rgb(85, 85, 85);}
+      100% {background: rgb(36, 36, 36);}
+}
+
+@-webkit-keyframes button-no-color{
+      0% {background: rgb(36, 36, 36);}
+      100% {background: rgb(85, 85, 85);}
+}
+
+@keyframes button-no-color{
+      0% {background: rgb(36, 36, 36);}
+      100% {background: rgb(85, 85, 85);}
+}
+
+@-webkit-keyframes input-animation{
+      0% {margin:20px 0 0 0; opacity: 0;}
+      50% {margin:20px 0 0 0; opacity: 0;}
+      100% {margin:0 0 20px 0; opacity: 1;}
+}
+
+@keyframes input-animation{
+      0% {margin:20px 0 0 0; opacity: 0;}
+      50% {margin:20px 0 0 0; opacity: 0;}
+      100% {margin:0 0 20px 0; opacity: 1;}
+}
+
+.header-content>nav{
+      -webkit-animation-duration: 0.3s;
+              animation-duration: 0.3s;
+      -webkit-animation-iteration-count: inherit;
+              animation-iteration-count: inherit;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.a-menu{
+      -webkit-animation-duration: 0.6s;
+              animation-duration: 0.6s;
+      -webkit-animation-iteration-count: inherit;
+              animation-iteration-count: inherit;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.hamb-animation{
+      -webkit-animation-name: hamb-animation;
+              animation-name: hamb-animation;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.hamb-opacity{
+      -webkit-animation-name: hamb-opacity;
+              animation-name: hamb-opacity;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.hamb-animation-back{
+      -webkit-animation-name: hamb-animation-back;
+              animation-name: hamb-animation-back;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+.hamb-opacity-back{
+      -webkit-animation-name: hamb-opacity-back;
+              animation-name: hamb-opacity-back;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+}
+
+@-webkit-keyframes hamb-animation{
+      0% {height: 0;}
+      100% {height: 160px;}
+}
+
+@keyframes hamb-animation{
+      0% {height: 0;}
+      100% {height: 160px;}
+}
+
+@-webkit-keyframes hamb-opacity{
+      0% {opacity: 0; }
+      50% {opacity: 0.1; }
+      100% {opacity: 1; }
+}
+
+@keyframes hamb-opacity{
+      0% {opacity: 0; }
+      50% {opacity: 0.1; }
+      100% {opacity: 1; }
+}
+
+@-webkit-keyframes hamb-animation-back{
+      0% {height: 160px;}
+      100% {height: 0;}
+}
+
+@keyframes hamb-animation-back{
+      0% {height: 160px;}
+      100% {height: 0;}
+}
+
+@-webkit-keyframes hamb-opacity-back{
+      0% {opacity: 1; }
+      50% {opacity: 0.5; }
+      100% {opacity: 0; }
+}
+
+@keyframes hamb-opacity-back{
+      0% {opacity: 1; }
+      50% {opacity: 0.5; }
+      100% {opacity: 0; }
+}
+
+@media screen and (max-device-width:600px){
+      @-webkit-keyframes apperance{
+            0% {margin: 10px 100px; opacity: 0;}
+            100% {margin: 10px 15px; opacity: 1;}
+      }
+      @keyframes apperance{
+            0% {margin: 10px 100px; opacity: 0;}
+            100% {margin: 10px 15px; opacity: 1;}
+      }
+
+      @-webkit-keyframes sudden-appearance{
+            0%{margin: 40px 0; opacity: 0.2;}
+            100% {margin: 10px 20px; opacity: 1;}
+      }
+
+      @keyframes sudden-appearance{
+            0%{margin: 40px 0; opacity: 0.2;}
+            100% {margin: 10px 20px; opacity: 1;}
+      }
+
+      @-webkit-keyframes input-animation{
+            0% {margin:20px 0 0 0; opacity: 0;}
+            50% {margin:20px 0 0 0; opacity: 0;}
+            100% {margin:0 0 10px 0; opacity: 1;}
+      }
+
+      @keyframes input-animation{
+            0% {margin:20px 0 0 0; opacity: 0;}
+            50% {margin:20px 0 0 0; opacity: 0;}
+            100% {margin:0 0 10px 0; opacity: 1;}
+      }
+
+      @-webkit-keyframes emergence{
+            0% {margin: 60px 0 0 0; opacity: 0;}
+            100%{margin: 0 0 60px 0; opacity: 1;}
+      }
+
+      @keyframes emergence{
+            0% {margin: 60px 0 0 0; opacity: 0;}
+            100%{margin: 0 0 60px 0; opacity: 1;}
+      }
+}
